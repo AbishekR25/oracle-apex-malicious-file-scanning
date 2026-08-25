@@ -21,9 +21,13 @@ The result is returned to the Oracle APEX application.
 
 Main Components
 Oracle APEX – User uploads the file.
+
 PL/SQL Package – Sends the uploaded file to the scanning API.
+
 Python FastAPI – Receives the file and handles authentication and scanning requests.
+
 Shell Script – Executes the Microsoft Defender scan.
+
 Microsoft Defender – Checks whether the file contains a detected threat
 
 Purpose
